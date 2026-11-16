@@ -1,0 +1,104 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Current Students | UTech, Jamaica</title>
+<style>
+  :root{--navy:#12305a;--gold:#f2b705;--ink:#1d2433;--paper:#f6f7fa;--line:#cfd6e2;--white:#fff}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:Georgia,"Times New Roman",serif;color:var(--ink);background:var(--paper);line-height:1.6}
+  h1,h2,h3,label,legend,button,.nav a{font-family:"Trebuchet MS",Verdana,sans-serif}
+  a{color:var(--navy)}
+  a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
+
+  header{background:var(--navy);color:var(--white);border-bottom:6px solid var(--gold);padding:1rem 1.5rem;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem}
+  header .brand{font:700 1.1rem "Trebuchet MS",Verdana,sans-serif;letter-spacing:.02em}
+  .nav a{color:var(--white);text-decoration:none;padding:.35rem .8rem;border:1px solid var(--gold);border-radius:4px}
+  .nav a:hover{background:var(--gold);color:var(--navy)}
+
+  main{max-width:1000px;margin:0 auto;padding:2rem 1.5rem 3rem}
+  h1{color:var(--navy);font-size:2rem;margin:0 0 1.25rem;border-left:8px solid var(--gold);padding-left:.75rem}
+
+  footer{text-align:center;font-size:.85rem;color:#46506a;padding:1.5rem}
+
+  /* Page 1 layout: table of lists on the left, picture on the right */
+  table.layout{width:100%;border-collapse:collapse;background:var(--white);border:1px solid var(--line)}
+  table.layout th{background:var(--navy);color:var(--white);text-align:left;padding:.6rem 1rem;font-family:"Trebuchet MS",Verdana,sans-serif;font-size:1.05rem}
+  table.layout td{vertical-align:top;padding:1rem;border:1px solid var(--line)}
+  table.layout td.pic{width:34%;text-align:center;background:#eef2f9}
+  table.layout ul{margin:.2rem 0 0;padding-left:1.2rem}
+  table.layout ul ul{list-style:circle;margin:.1rem 0 .3rem}
+  table.layout li{margin:.25rem 0}
+  .pic figure{margin:0}
+  .pic svg{width:100%;height:auto;border-radius:6px}
+  .pic figcaption{font-size:.9rem;margin-top:.5rem;color:#46506a}
+  .pic .go{display:inline-block;margin-top:1rem;background:var(--gold);color:var(--navy);padding:.6rem 1rem;border-radius:4px;text-decoration:none;font:700 1rem "Trebuchet MS",Verdana,sans-serif}
+  .pic .go:hover{background:var(--navy);color:var(--gold)}
+
+  @media (max-width:700px){
+   table.layout,table.layout tbody,table.layout tr,table.layout td,table.layout th{display:block;width:100%}
+   table.layout thead{display:none}
+  }
+</style>
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<header>
+  <span class="brand">University of Technology, Jamaica</span>
+  <nav class="nav"><a href="boarding.html">Apply for Boarding</a></nav>
+</header>
+
+<main>
+  <h1>Information for Current Students</h1>
+
+  <table class="layout">
+    <thead>
+      <tr><th colspan="2">Student Information Centre</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+          <h2>Academic Resources</h2>
+          <ul>
+            <li><a href="#">Handbook</a>
+              <ul>
+                <li><a href="#">Undergrad</a></li>
+                <li><a href="#">Graduate</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Module Selection Guide</a></li>
+          </ul>
+
+          <h2>Student Services</h2>
+          <ul>
+            <li><a href="#">Accommodation</a></li>
+            <li><a href="#">Admissions</a></li>
+            <li><a href="#">Financial Aid</a></li>
+            <li><a href="#">Graduation</a></li>
+            <li><a href="#">Medical Centre</a></li>
+          </ul>
+
+          <h2>Online Applications</h2>
+          <ul>
+            <li><a href="#">Add/Drop</a></li>
+            <li><a href="boarding.html">Boarding</a></li>
+            <li><a href="#">Medical Centre Appointment</a></li>
+            <li><a href="#">Fee Payment</a></li>
+          </ul>
+        </td>
+
+        <td class="pic">
+          <img src="student.pdf" alt="Student Service assisting Student">
+
+            <figcaption>Student Services helps with applications, fees and more.</figcaption>
+          </figure>
+          <a href="Boarding">Go To Boarding</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</main>
+
+</body>
+</html>

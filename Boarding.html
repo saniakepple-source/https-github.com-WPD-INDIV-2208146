@@ -1,0 +1,89 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Apply for Boarding | UTech, Jamaica</title>
+<link rel="stylesheet" href="boarding.css">
+</head>
+<body>
+<header>
+  <span class="brand">University of Technology, Jamaica</span>
+  <nav class="nav"><a href="index.html">Back to Student Main</a></nav>
+</header>
+
+<main>
+  <h1>Apply for Boarding</h1>
+
+  <section class="terms" id="terms">
+    <h2>Terms &amp; Conditions</h2>
+    <ol>
+      <li>Only currently registered students may apply for residence.</li>
+      <li>Placement in your preferred hall is not guaranteed.</li>
+      <li>All information given on this form must be accurate.</li>
+      <li>Residents must follow the rules of the hall they are assigned to.</li>
+    </ol>
+  </section>
+
+  <table class="apply">
+    <tr>
+      <td class="formcell">
+        <form action="#" method="post">
+          <div class="field">
+            <label for="hall">Preferred Hall/Residence</label>
+            <select id="hall" name="hall">
+              <option>Lionel</option>
+              <option>Mavis</option>
+              <option>St. Grayside</option>
+            </select>
+          </div>
+
+          <div class="field">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname" required>
+          </div>
+
+          <div class="field">
+            <label for="sname">Surname</label>
+            <input type="text" id="sname" name="sname" required>
+          </div>
+
+          <div class="field">
+            <label for="mi">Middle Initial</label>
+            <input type="text" id="mi" name="mi" class="initial" maxlength="1">
+          </div>
+
+          <fieldset>
+            <legend>Gender</legend>
+            <label><input type="radio" name="gender" value="male" required> Male</label>
+            <label><input type="radio" name="gender" value="female"> Female</label>
+          </fieldset>
+
+          <fieldset class="ail">
+            <legend>Known ailments (select all that apply)</legend>
+            <label><input type="checkbox" name="ailments" value="wet-hands"> Wet hands</label>
+            <label><input type="checkbox" name="ailments" value="smelly-feet"> Smelly feet</label>
+            <label><input type="checkbox" name="ailments" value="dry-eyes"> Dry eyes</label>
+            <label><input type="checkbox" name="ailments" value="bright-lights"> Bright lights allergy</label>
+          </fieldset>
+
+          <div class="field">
+            <label style="font-weight:400;color:inherit"><input type="checkbox" name="agree" required>
+              I have read &amp; agree to the <a href="#terms">Terms &amp; Conditions</a></label>
+          </div>
+
+          <button type="submit" class="apply-btn">Apply</button>
+        </form>
+      </td>
+
+      <td class="help">
+        <h2>Any questions?</h2>
+        <p>Any member of our student services team will be happy to help.</p>
+        <a class="contact" href="#">Contact Us</a>
+      </td>
+    </tr>
+  </table>
+</main>
+
+</body>
+</html>
